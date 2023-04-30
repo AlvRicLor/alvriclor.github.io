@@ -5,47 +5,66 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="./css/estilos.css">
   <title>¡Bienvenido a mi Porfolio!</title>
 </head>
 
 <body>
-
   <header class="bg-primary text-white text-center py-5">
     <h1>¡Bienvenido a mi Porfolio!</h1>
     <p><b>Álvaro Rico Lorente</b></p>
   </header>
+
   <main>
     <section class="container mt-5">
       <h2 class="mb-4">Sobre mí</h2>
-      <p>Soy un joven entusiasta de 19 años, apasionado por el desarrollo de software y siempre en busca de nuevos
-        desafíos. A pesar de tener poca experiencia en el sector, me defiendo con soltura gracias a mis estudios de
-        Grado Medio en SMX, así como a lo que llevo estudiado este año en el Grado Superior de ASIX. <br> <br>
-        Mi sólida formación académica me ha permitido adquirir conocimientos en diversas áreas del desarrollo de
+      <p>Soy un joven de 19 años, apasionado por el desarrollo de software y en busca de nuevos
+        desafíos. A pesar de tener poca experiencia en el sector, me defiendo gracias a mis estudios de
+        Grado Medio en SMX, así como a lo que llevo estudiado este año en un Grado Superior de ASIX. <br> <br>
+        Mi actual formación académica me ha permitido adquirir conocimientos en diversas áreas del desarrollo de
         software. Tengo un buen dominio de JavaScript, lo que me permite crear aplicaciones web interactivas y
-        funcionales. Además, he trabajado con MySQL, lo que me ha proporcionado una base sólida en la administración y
+        funcionales. Además, he trabajado un poco con MySQL, lo que me ha proporcionado una base en la administración y
         el diseño de bases de datos. Aunque mi experiencia con Python es limitada, estoy comprometido en seguir
         aprendiendo y desarrollando mis habilidades en este lenguaje de programación versátil y potente.</p>
     </section>
 
     <section class="container mt-5">
-      <h2 class="mb-4">Skills de programación</h2>
+      <h2 class="mb-4">Habilidades a Destacar</h2>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <div class="card text-center">
             <div class="card-body">
-              <i class="devicon-python-plain colored"></i>
-              <h5 class="card-title">Python</h5>
-              <p class="card-text">Conceptos básicos en Python, un lenguaje de programación versátil y potente.</p>
+              <i class="devicon-windows8-plain colored icon-large"></i>
+              <h5 class="card-title">Windows</h5>
+              <p class="card-text">Conceptos avanzados de Administración de Redes, necesarios para dominios y gestión de la información.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <i class="devicon-bash-plain colored icon-large"></i>
+              <h5 class="card-title">Bash</h5>
+              <p class="card-text">Conceptos avanzados de Shell Scripts, necesarios para cualquier configuración avanzada en GNU/Linux.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card text-center">
             <div class="card-body">
-              <i class="devicon-javascript-plain colored"></i>
+              <i class="devicon-python-plain colored icon-large"></i>
+              <h5 class="card-title">Python</h5>
+              <p class="card-text">Conceptos básicos de Python, un lenguaje de programación versátil y potente.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <i class="devicon-javascript-plain colored icon-large"></i>
               <h5 class="card-title">JavaScript</h5>
-              <p class="card-text">Conceptos avanzados de Javascript, un lenguaje de programación esencial para
+              <p class="card-text">Conceptos básicos de Javascript, un lenguaje de programación esencial para
                 aplicaciones web </p>
             </div>
           </div>
@@ -53,10 +72,19 @@
         <div class="col-md-4">
           <div class="card text-center">
             <div class="card-body">
-              <i class="devicon-mysql-plain colored"></i>
+              <i class="devicon-mysql-plain colored icon-large"></i>
               <h5 class="card-title">MySQL</h5>
-              <p class="card-text">Conceptos básico en MySQL, un sistema de gestión de bases de datos popular y
+              <p class="card-text">Conceptos básicos de MySQL, un sistema de gestión de bases de datos popular y
                 escalable.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <i class="devicon-markdown-plain colored icon-large"></i>
+              <h5 class="card-title">Markdown</h5>
+              <p class="card-text">Conocimientos básicos para informes y escritos en Markdown.</p>
             </div>
           </div>
         </div>
@@ -64,27 +92,25 @@
     </section>
 
     <section class="container mt-5">
-      <h2 class="mb-4">Proyectos destacados</h2>
+      <h2 class="mb-4">Mis Proyectos</h2>
       <div class="row">
         <div class="col-md-6">
-          <div class="card mb-4">
-            <img src="./img/presupuestos.jpg" class="card-img-top" alt="Proyecto 1">
+          <a href="./calc.html"><div class="card mb-4">
+            <img src="./img/calc.jpg" class="card-img-top" alt="Proyecto 1">
             <div class="card-body">
-              <h5 class="card-title">Calculadora de Presupuesto JS</h5>
-              <p class="card-text">Una sencilla calculadora de presupuesto desarrollada en JavaScript que permite a los
-                usuarios realizar un seguimiento de sus ingresos y gastos mensuales. <br> Con una interfaz fácil de usar,
-                esta herramienta facilita la planificación financiera personal.</p>
+              <h5 class="card-title">Calculadora Simple JS</h5>
+              <p class="card-text">Una sencilla calculadora de operaciones simples desarrollada en JavaScript que permite
+                a los usuarios realizar operaciones matemáticas.</p>
             </div>
-          </div>
+          </div></a>
         </div>
         <div class="col-md-6">
           <div class="card mb-4">
             <img src="./img/galeria.png" class="card-img-top" alt="Proyecto 2">
             <div class="card-body">
-              <h5 class="card-title">Galería de Fotos Dinámica JS</h5>
-              <p class="card-text">Una galería de fotos desarrollada con JavaScript que permite a los usuarios cargar y
-                organizar sus imágenes de manera eficiente. Con la capacidad de agregar y eliminar imágenes fácilmente,
-                esta aplicación proporciona una solución simple para almacenar y compartir fotos.</p>
+              <h5 class="card-title">Lista de Tareas JS</h5>
+              <p class="card-text">Lista de tareas pendientes desarrollada en JavaScript donde cualquier usuario puede 
+                agregar y eliminar todas las tareas que necesite</p>
             </div>
           </div>
         </div>
@@ -109,10 +135,14 @@
         <button type="submit" class="btn btn-outline-primary">Enviar mensaje</button>
       </form>
     </section>
-
   </main>
+
   <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2023 - Álvaro Rico Lorente</p>
+    <h6 class="pb-2">&copy; 2023 - Álvaro Rico Lorente</h6>
+    <a href="https://github.com/AlvRicLor/alvriclor.github.io"><i class="devicon-github-original-wordmark footer-icon px-3"></i></a>
+    <a href="#"><i class="devicon-linkedin-plain colored footer-icon px-3"></i></a>
+    <a href="#"><i class="devicon-twitter-plain colored footer-icon px-3"></i></a>
+    <a href="#"><i class="devicon-facebook-plain colored footer-icon px-3"></i></a>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>

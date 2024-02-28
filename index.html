@@ -1,152 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css">
-  <link rel="stylesheet" href="./css/estilos.css">
-  <title>¡Bienvenido a mi Porfolio!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Álvaro Rico</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header class="bg-primary text-white text-center py-5">
-    <h1>¡Bienvenido a mi Porfolio!</h1>
-    <p><b>Álvaro Rico Lorente</b></p>
-  </header>
-
-  <main>
-    <section class="container mt-5">
-      <h2 class="mb-4">Sobre mí</h2>
-      <p>Soy un joven de 19 años, apasionado por el desarrollo de software y en busca de nuevos
-        desafíos. A pesar de tener poca experiencia en el sector, me defiendo gracias a mis estudios de
-        Grado Medio en SMX, así como a lo que llevo estudiado este año en un Grado Superior de ASIX. <br> <br>
-        Mi actual formación académica me ha permitido adquirir conocimientos en diversas áreas del desarrollo de
-        software. Tengo un buen dominio de JavaScript, lo que me permite crear aplicaciones web interactivas y
-        funcionales. Además, he trabajado un poco con MySQL, lo que me ha proporcionado una base en la administración y
-        el diseño de bases de datos. Aunque mi experiencia con Python es limitada, estoy comprometido en seguir
-        aprendiendo y desarrollando mis habilidades en este lenguaje de programación versátil y potente.</p>
+    <header>
+        <h1>Álvaro Rico</h1>
+        <p>Graduado en Administración de Sistemas y Redes</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Recién graduado en Administración de Sistemas y Redes con pasión por la tecnología y la innovación. Con habilidades en gestión de bases de datos, programación en Python, JavaScript, ShellScripts y PHP.</p>
     </section>
-
-    <section class="container mt-5">
-      <h2 class="mb-4">Habilidades a Destacar</h2>
-      <div class="row">
-        <div class="col-md-4 mb-3">
-          <div class="card text-center">
-            <div class="card-body">
-              <i class="devicon-windows8-plain colored icon-large"></i>
-              <h5 class="card-title">Windows</h5>
-              <p class="card-text">Conceptos avanzados de Administración de Redes, necesarios para dominios y gestión de la información.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card text-center">
-            <div class="card-body">
-              <i class="devicon-bash-plain colored icon-large"></i>
-              <h5 class="card-title">Bash</h5>
-              <p class="card-text">Conceptos avanzados de Shell Scripts, necesarios para cualquier configuración avanzada en GNU/Linux.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card text-center">
-            <div class="card-body">
-              <i class="devicon-python-plain colored icon-large"></i>
-              <h5 class="card-title">Python</h5>
-              <p class="card-text">Conceptos básicos de Python, un lenguaje de programación versátil y potente.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card text-center">
-            <div class="card-body">
-              <i class="devicon-javascript-plain colored icon-large"></i>
-              <h5 class="card-title">JavaScript</h5>
-              <p class="card-text">Conceptos básicos de Javascript, un lenguaje de programación esencial para
-                aplicaciones web </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card text-center">
-            <div class="card-body">
-              <i class="devicon-mysql-plain colored icon-large"></i>
-              <h5 class="card-title">MySQL</h5>
-              <p class="card-text">Conceptos básicos de MySQL, un sistema de gestión de bases de datos popular y
-                escalable.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card text-center">
-            <div class="card-body">
-              <i class="devicon-markdown-plain colored icon-large"></i>
-              <h5 class="card-title">Markdown</h5>
-              <p class="card-text">Conocimientos básicos para informes y escritos en Markdown.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Administración de sistemas y redes</li>
+            <li>Gestión y administración de bases de datos (MySQL)</li>
+            <li>Programación en Python, JavaScript, y ShellScripts</li>
+            <li>Desarrollo avanzado en PHP</li>
+        </ul>
     </section>
-
-    <section class="container mt-5">
-      <h2 class="mb-4">Mis Proyectos</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <a href="./calc.html"><div class="card mb-4">
-            <img src="./img/calc.jpg" class="card-img-top" alt="Proyecto 1">
-            <div class="card-body">
-              <h5 class="card-title">Calculadora Simple JS</h5>
-              <p class="card-text">Una sencilla calculadora de operaciones simples desarrollada en JavaScript que permite
-                a los usuarios realizar operaciones matemáticas.</p>
-            </div>
-          </div></a>
-        </div>
-        <div class="col-md-6">
-          <div class="card mb-4">
-            <img src="./img/galeria.png" class="card-img-top" alt="Proyecto 2">
-            <div class="card-body">
-              <h5 class="card-title">Lista de Tareas JS</h5>
-              <p class="card-text">Lista de tareas pendientes desarrollada en JavaScript donde cualquier usuario puede 
-                agregar y eliminar todas las tareas que necesite</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section id="projects">
+        <h2>Proyectos destacados</h2>
+        <!-- Añade tus proyectos aquí -->
     </section>
-
-    <section id="contact" class="container mt-5">
-      <h2 class="mb-4">Contacto</h2>
-      <form>
-        <div class="mb-3">
-          <label for="name" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="name" placeholder="Nombre completo">
-        </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Correo electrónico</label>
-          <input type="email" class="form-control" id="email" placeholder="ejemplo@correo.com">
-        </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
-        </div>
-        <button type="submit" class="btn btn-outline-primary">Enviar mensaje</button>
-      </form>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>¿Interesado en colaborar? ¡Me encantaría escuchar sobre tu proyecto! Contacta conmigo a través de mi correo electrónico: tuemail@example.com</p>
     </section>
-  </main>
-
-  <footer class="bg-dark text-white text-center py-3">
-    <h6 class="pb-2">&copy; 2023 - Álvaro Rico Lorente</h6>
-    <a href="https://github.com/AlvRicLor/alvriclor.github.io"><i class="devicon-github-original-wordmark footer-icon px-3"></i></a>
-    <a href="#"><i class="devicon-linkedin-plain colored footer-icon px-3"></i></a>
-    <a href="#"><i class="devicon-twitter-plain colored footer-icon px-3"></i></a>
-    <a href="#"><i class="devicon-facebook-plain colored footer-icon px-3"></i></a>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <footer>
+        <p>© 2024 Álvaro Rico</p>
+    </footer>
 </body>
- 
 </html>
